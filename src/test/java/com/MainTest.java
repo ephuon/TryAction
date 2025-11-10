@@ -9,8 +9,8 @@ class MainTest {
 	@Test
 	void test() {
 		Main main = new Main();
-		int result = main.add(1, 1);
-		assertEquals(1, result);
+		int result = main.add(1, 114514);
+		assertEquals(114515, result);
 	}
 
 }
